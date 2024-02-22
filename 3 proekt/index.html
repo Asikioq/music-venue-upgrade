@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asik FM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <button class="openbtn" onclick="openNav()">☰</button> 
+    <div class="Asik_FM">
+        <h1>Asik FM</h1>
+    </div>
+
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="aslan.html" class="underline-animation">Home</a>
+        <a href="C:\Users\Asus\OneDrive\Desktop\IT\1\skriptonit\skrip.html" class="underline-animation">Demo</a>
+        <a href="C:\Users\Asus\OneDrive\Desktop\IT\1\index.html" class="underline-animation">Clients</a>
+        <a href="https://instagram.com/asik.ioq?igshid=YTQwZjQ0NmI0OA==" class="underline-animation">Contact</a>
+    </div>
+      
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('Скриптонит')"> Скриптонит</button>
+        <button class="btn" onclick="filterSelection('Кислосладкий&Bonah')"> Кислосладкий&Bonah</button>
+        <button class="btn" onclick="filterSelection('Ирина Кайратовна')"> Ирина Кайратовна</button>
+        <button class="btn" onclick="filterSelection('Масло')"> Масло черного тмина</button>
+        <button class="btn" onclick="filterSelection('Truwer')"> Truwer</button>
+        <button class="btn" onclick="filterSelection('уннв')"> Уннв</button>
+        <button class="btn" onclick="filterSelection('del')"> Delete all</button>
+    </div>
+
+    <div class="row">
+        <!--Скриптонит-->
+        <div class="column Скриптонит">
+          <div class="content">
+            <img src="200px-Уроборос-Зеркала.jpg" id="content_img">
+            <p id="content_p">Интервью</p>
+            <audio controls>
+                <source src="1533377758_skriptonit-intervyu.mp3">
+            </audio>
+          </div>
+        </div>
+        <div class="column Скриптонит">
+          <div class="content">
+            <img src="Праздник_на_улице_36.jpg" id="content_img">
+            <p id="content_p">Темно</p>
+            <audio controls>
+                <source src="Скриптонит - Темно.mp3">
+            </audio>
+          </div>
+        </div>
+        <div class="column Скриптонит">
+          <div class="content">
+            <img src="640px-2004_(альбом).jpg" id="content_img">
+            <p id="content_p">Выходные</p>
+            <audio controls>
+                <source src="Скриптонит - Выходные.mp3">
+            </audio>
+          </div>
+        </div>
+        <div class="column Скриптонит">
+          <div class="content">
+            <img src="Дом_с_нормальными_явлениями.jpg" id="content_img">
+            <p id="content_p">Коньяк</p>
+            <audio controls>
+                <source src="Скриптонит - Коньяк.mp3">
+            </audio>
+          </div>
+        </div>
+        <div class="column Скриптонит">
+          <div class="content">
+            <img src="Дом_с_нормальными_явлениями.jpg" id="content_img">
+            <p id="content_p">Вниз</p>
+            <audio controls>
+                <source src="Скриптонит - Вниз.mp3">
+            </audio>
+          </div>
+        </div>
+        <div class="column Скриптонит">
+          <div class="content">
+            <img src="200px-Уроборос-Зеркала.jpg" id="content_img">
+            <p id="content_p">Не надо меня узнавать</p>
+            <audio controls>
+                <source src="Скриптонит - Не надо меня узнавать.mp3">
+            </audio>
+          </div>
+        </div>
+        <div class="column Скриптонит">
+          <div class="content">
+            <img src="Праздник_на_улице_36.jpg" id="content_img">
+            <p id="content_p">Не забирай меня с пати</p>
+            <audio controls>
+                <source src="Скриптонит - Не забирай меня с пати (ft. Надя Дорофеева ft. Время и Стекло).mp3">
+            </audio>
+          </div>
+        </div>
+        <div class="column Скриптонит">
+          <div class="content">
+            <img src="Праздник_на_улице_36.jpg" id="content_img">
+            <p id="content_p">Капли вниз по бедрам</p>
+            <audio controls>
+                <source src="Скриптонит - Капли вниз по бедрам (ft. Niman).mp3">
+            </audio>
+          </div>
+        </div>
+        <div class="column Скриптонит">
+          <div class="content">
+            <img src="стиль.jpg" id="content_img">
+            <p id="content_p">Стиль</p>
+            <audio controls>
+                <source src="Скриптонит - Стиль.mp3">
+            </audio>
+          </div>
+        </div>
+        <div class="column Скриптонит">
+            <div class="content">
+              <img src="чистый.jpg" id="content_img">
+              <p id="content_p">чистый</p>
+              <audio controls>
+                  <source src="Скриптонит - Чистый (OST Псих).mp3">
+              </audio>
+            </div>
+          </div>
+        <!--Кислосладкий&Bonah-->
+        <div class="column Кислосладкий&Bonah">
+            <div class="content">
+                <img src="aibyvaiby.jpeg" id="content_img">
+                <p id="content_p">Пиридай</p>
+                <audio controls>
+                    <source src="Кисло-Сладкий Bonah ft. Martoven - Пиридай.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Кислосладкий&Bonah">
+            <div class="content">
+                <img src="hod joq.jpeg" id="content_img">
+                <p id="content_p">Ход Joq</p>
+                <audio controls>
+                    <source src="Кисло-Сладкий Bonah ft. Junior - Ход Joq.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Кислосладкий&Bonah">
+            <div class="content">
+                <img src="uwu.jpg" id="content_img">
+                <p id="content_p">Am Jalama</p>
+                <audio controls>
+                    <source src="Кисло-Сладкий - AM JALAMA (feat. Bonah).mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Кислосладкий&Bonah">
+            <div class="content">
+                <img src="uwu.jpg" id="content_img">
+                <p id="content_p">Kulturno</p>
+                <audio controls>
+                    <source src="Кисло-Сладкий  Bonah - KULTURNO.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Кислосладкий&Bonah">
+            <div class="content">
+                <img src="aibyvaiby.jpeg" id="content_img">
+                <p id="content_p">BS korob</p>
+                <audio controls>
+                    <source src="Кисло-Сладкий Bonah - BS Korob.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Кислосладкий&Bonah">
+            <div class="content">
+                <img src="bugin erten.jpeg" id="content_img">
+                <p id="content_p">Bugin Erten</p>
+                <audio controls>
+                    <source src="Кисло-Сладкий Bonah - Bugin-Erten.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Кислосладкий&Bonah">
+            <div class="content">
+                <img src="aibyvaiby.jpeg" id="content_img">
+                <p id="content_p">Salto Malto</p>
+                <audio controls>
+                    <source src="kislo-sladkij-bonah-salto-malto_(muzzona.kz).mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Кислосладкий&Bonah">
+            <div class="content">
+                <img src="uwu.jpg" id="content_img">
+                <p id="content_p">OK!</p>
+                <audio controls>
+                    <source src="Кисло-Сладкий - OK (feat. Bonah).mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Кислосладкий&Bonah">
+            <div class="content">
+                <img src="aibyvaiby.jpeg" id="content_img">
+                <p id="content_p">Altyn Adam</p>
+                <audio controls>
+                    <source src="Кисло-Сладкий Bonah - ALTYN ADAM.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Кислосладкий&Bonah">
+            <div class="content">
+                <img src="uwu.jpg" id="content_img">
+                <p id="content_p">Taq Tara Raq</p>
+                <audio controls>
+                    <source src="Кисло-сладкий & Bonah - Taq Tara Raq.mp3">
+                </audio>
+            </div>
+        </div>
+        <!--Ирина Кайратовна-->
+        <div class="column Ирина Кайратовна">
+            <div class="content">
+                <img src="13 выпуск.jpeg" id="content_img">
+                <p id="content_p">Молодежь</p>
+                <audio controls>
+                    <source src="Ирина Кайратовна - Молодежь.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Ирина Кайратовна">
+            <div class="content">
+                <img src="13 выпуск.jpeg" id="content_img">
+                <p id="content_p">5000</p>
+                <audio controls>
+                    <source src="Ирина Кайратовна - 5000.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Ирина Кайратовна">
+            <div class="content">
+                <img src="бата.jpg" id="content_img">
+                <p id="content_p">Bata</p>
+                <audio controls>
+                    <source src="MOLDANAZAR, Ирина Кайратовна – Bata.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Ирина Кайратовна">
+            <div class="content">
+                <img src="джай.jpg" id="content_img">
+                <p id="content_p">Джай</p>
+                <audio controls>
+                    <source src="Ирина Кайратовна ft. Hiro - Джай.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Ирина Кайратовна">
+            <div class="content">
+                <img src="ne angime.jpg" id="content_img">
+                <p id="content_p">Ne angime</p>
+                <audio controls>
+                    <source src="Ирина Кайратовна feat. Junior - NE ÁŃGIME_.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Ирина Кайратовна">
+            <div class="content">
+                <img src="adjara gudju.jpeg" id="content_img">
+                <p id="content_p">Adjara gudju</p>
+                <audio controls>
+                    <source src="Ирина Кайратовна, HIRO - Adjare Gudju.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Ирина Кайратовна">
+            <div class="content">
+                <img src="13 выпуск.jpeg" id="content_img">
+                <p id="content_p">Wu-kang</p>
+                <audio controls>
+                    <source src="Ирина Кайратовна - Wu-Kang (feat. De Lacure Hiro).mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Ирина Кайратовна">
+            <div class="content">
+                <img src="13 выпуск.jpeg" id="content_img">
+                <p id="content_p">Алаш</p>
+                <audio controls>
+                    <source src="Ирина Кайратовна - Алаш.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Ирина Кайратовна">
+            <div class="content">
+                <img src="adjara gudju.jpeg" id="content_img">
+                <p id="content_p">Алматы-Коста-Рика</p>
+                <audio controls>
+                    <source src="Ирина Кайратовна, HIRO - Алматы - Коста-Рика.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Ирина Кайратовна">
+            <div class="content">
+                <img src="кок ту.jpeg" id="content_img">
+                <p id="content_p">Кок Ту</p>
+                <audio controls>
+                    <source src="Кисло-сладкий & Bonah - Taq Tara Raq.mp3">
+                </audio>
+            </div>
+        </div>
+        <!--Масло черного тмина-->
+        <div class="column Масло">
+            <div class="content">
+                <img src="аппарат президента.jpeg" id="content_img">
+                <p id="content_p">Аппарат президента 2</p>
+                <audio controls>
+                    <source src="Масло черного тмина - аппарат президента 2.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Масло">
+            <div class="content">
+                <img src="что для тебя красота.jpg" id="content_img">
+                <p id="content_p">Что для тебя красота</p>
+                <audio controls>
+                    <source src="Масло черного тмина - что для тебя красота_.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Масло">
+            <div class="content">
+                <img src="что ты скажешь мусорам.jpeg" id="content_img">
+                <p id="content_p">что ты скажешь мусорам, Даник</p>
+                <audio controls>
+                    <source src="Масло черного тмина - что ты скажешь мусорам, Даник.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Масло">
+            <div class="content">
+                <img src="я не напишу и строчки.jpeg" id="content_img">
+                <p id="content_p">я не напишу ни строчки</p>
+                <audio controls>
+                    <source src="maslo_chernogo_tmina_ya_ne_napishu_ni_strochki.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Масло">
+            <div class="content">
+                <img src="тысячу раз спокойной ночи.jpg" id="content_img">
+                <p id="content_p">тысячу раз спокойной ночи</p>
+                <audio controls>
+                    <source src="maslo-chernogo-tmina-tysjachu-raz-spokojnoj-nochi_456368633.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Масло">
+            <div class="content">
+                <img src="vigorish.jpg" id="content_img">
+                <p id="content_p">Vigorish</p>
+                <audio controls>
+                    <source src="Масло черного тмина - Vigorish.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Масло">
+            <div class="content">
+                <img src="ryzen.jpg" id="content_img">
+                <p id="content_p">Ryzen</p>
+                <audio controls>
+                    <source src="Масло черного тмина - ryzen.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Масло">
+            <div class="content">
+                <img src="maximum black.jpeg" id="content_img">
+                <p id="content_p">Maximum black</p>
+                <audio controls>
+                    <source src="maslo-chernogo-tmina-maximum-black_(muzzona.kz).mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Масло">
+            <div class="content">
+                <img src="магия.jpeg" id="content_img">
+                <p id="content_p">Магия</p>
+                <audio controls>
+                    <source src="Масло черного тмина - магия.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Масло">
+            <div class="content">
+                <img src="dondiablo.jpeg" id="content_img">
+                <p id="content_p">dondiablo</p>
+                <audio controls>
+                    <source src="Масло черного тмина - dondiablo.mp3">
+                </audio>
+            </div>
+        </div>
+        <!--Truwer-->
+        <div class="column Truwer">
+            <div class="content">
+                <img src="640px-2004_(альбом).jpg" id="content_img">
+                <p id="content_p">Кто на телефоне?</p>
+                <audio controls>
+                    <source src="Truwer - Кто на телефоне (Интерлюдия).mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Truwer">
+            <div class="content">
+                <img src="диабло.jpeg" id="content_img">
+                <p id="content_p">Диабло</p>
+                <audio controls>
+                    <source src="Truwer - Диабло.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Truwer">
+            <div class="content">
+                <img src="на волну.jpg" id="content_img">
+                <p id="content_p">На волну</p>
+                <audio controls>
+                    <source src="T-Fest & Truwer - На волну.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Truwer">
+            <div class="content">
+                <img src="нет выбора.jpg" id="content_img">
+                <p id="content_p">Нет выбора</p>
+                <audio controls>
+                    <source src="Скриптонит & 104 & Truwer & Blud - Нет выбора (OST Конверт).mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Truwer">
+            <div class="content">
+                <img src="я знаю какая ты.jpg" id="content_img">
+                <p id="content_p">Я знаю какая ты</p>
+                <audio controls>
+                    <source src="104 & Truwer - Я Знаю Какая Ты (ft. Скриптонит & Maqlao).mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Truwer">
+            <div class="content">
+                <img src="я знаю какая ты.jpg" id="content_img">
+                <p id="content_p">Сафари</p>
+                <audio controls>
+                    <source src="104 & Truwer - Сафари.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Truwer">
+            <div class="content">
+                <img src="дерзко.jpg" id="content_img">
+                <p id="content_p">Дерзко</p>
+                <audio controls>
+                    <source src="Truwer - Дерзко (ft. Kali).mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Truwer">
+            <div class="content">
+                <img src="дерзко.jpg" id="content_img">
+                <p id="content_p">Муса</p>
+                <audio controls>
+                    <source src="Truwer - Муса.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Truwer">
+            <div class="content">
+                <img src="дерзко.jpg" id="content_img">
+                <p id="content_p">JEL</p>
+                <audio controls>
+                    <source src="Truwer - JEL.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column Truwer">
+            <div class="content">
+                <img src="дерзко.jpg" id="content_img">
+                <p id="content_p">Майф</p>
+                <audio controls>
+                    <source src="Truwer - Майф.mp3">
+                </audio>
+            </div>
+        </div>
+        <!--УННВ-->
+        <div class="column уннв">
+            <div class="content">
+                <img src="без даты.jpeg" id="content_img">
+                <p id="content_p">Без даты</p>
+                <audio controls>
+                    <source src="УННВ - Без даты.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column уннв">
+            <div class="content">
+                <img src="О'Дно.jpeg" id="content_img">
+                <p id="content_p">Мимо сказки</p>
+                <audio controls>
+                    <source src="УННВ – Мимо сказки.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column уннв">
+            <div class="content">
+                <img src="О'Дно.jpeg" id="content_img">
+                <p id="content_p">Поэзия фольги</p>
+                <audio controls>
+                    <source src="УННВ - Поэзия фольги.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column уннв">
+            <div class="content">
+                <img src="ичи тригер фингер нигаз.jpg" id="content_img">
+                <p id="content_p">Ичи тригер фингер нигаз</p>
+                <audio controls>
+                    <source src="УННВ - Ичи тригер фингер нигаз.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column уннв">
+            <div class="content">
+                <img src="ичи тригер фингер нигаз.jpg" id="content_img">
+                <p id="content_p">Все будет хорошо</p>
+                <audio controls>
+                    <source src="УННВ - Все будет хорошо.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column уннв">
+            <div class="content">
+                <img src="ичи тригер фингер нигаз.jpg" id="content_img">
+                <p id="content_p">Пока тлеет гашиш</p>
+                <audio controls>
+                    <source src="УННВ - Пока тлеет гашиш.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column уннв">
+            <div class="content">
+                <img src="чернь.jpeg" id="content_img">
+                <p id="content_p">Лунная соната</p>
+                <audio controls>
+                    <source src="УННВ - Лунная соната.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column уннв">
+            <div class="content">
+                <img src="чернь.jpeg" id="content_img">
+                <p id="content_p">Салатовый трек</p>
+                <audio controls>
+                    <source src="Уннв - Трек Салатовый.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column уннв">
+            <div class="content">
+                <img src="чернь.jpeg" id="content_img">
+                <p id="content_p">Слюни</p>
+                <audio controls>
+                    <source src="УННВ - слюни.mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="column уннв">
+            <div class="content">
+                <img src="чернь.jpeg" id="content_img">
+                <p id="content_p">Мне так не хватает твоей красоты</p>
+                <audio controls>
+                    <source src="УННВ - мне так не хватает твоей красоты.mp3">
+                </audio>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
